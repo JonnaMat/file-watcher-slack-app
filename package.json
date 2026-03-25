@@ -1,0 +1,16 @@
+{
+  "name": "slack-filewatcher-app",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^7.15.0",
+    "chokidar": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "minimatch": "^10.0.0"
+  }
+}
