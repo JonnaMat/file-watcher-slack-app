@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="docs/assets/file-watcher-logo.png" width="100px" alt="File Watcher Slack Bot" />
   <h1 style="font-size: 28px; margin: 10px 0;">File Watcher for Slack</h1>
   <p>Watch local files, get them delivered to your Slack DM — instantly.</p>
 </div>
@@ -89,7 +90,9 @@ sudo apt install pandoc texlive-latex-base
 1. Go to [api.slack.com/apps](https://api.slack.com/apps) and click **Create New App**
 2. Choose **From an app manifest**
 3. Select your workspace and paste the contents of [`manifest.json`](manifest.json)
-4. Install the app to your workspace and copy the **Bot User OAuth Token** (`xoxb-...`)
+4. Navigate to **Basic Information** → **App Icon** and upload `docs/assets/file-watcher-logo.png` as the icon.
+5. Install the app to your workspace and copy the **Bot User OAuth Token** (`xoxb-...`)
+
 
 ### 2. Get your Slack User ID
 
